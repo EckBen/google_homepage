@@ -1,0 +1,124 @@
+main, form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+a {
+    text-decoration: none;
+    text-justify: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 8;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    background-color: rgba(194, 180, 180, 0.3);
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+header, footer {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background-color: rgba(194, 180, 180, 0.3);
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.head {
+    display: flex;
+    justify-items: center;
+    height: 30px;
+}
+
+.foot {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+}
+
+#grid-btn {
+    display: inline-block;
+    background-image: url(https://web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+}
+
+#logo {
+    padding-top: 15%;
+}
+
+#search {
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 90%;
+}
+
+#search-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#search-text {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgba(194, 180, 180, 0.4);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#settings {
+    padding-right: 20px;
+}
+
+#sign-in {
+    background-color: rgb(67, 135, 253);
+    color: rgba(255, 255, 255, 0.9);
+    height: 30px;
+    width: 80px;
+    margin-right: 10px;
+}
